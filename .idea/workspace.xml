@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0d1b3d-3bc5-4666-845e-381fdd8fc19a" name="Changes" comment="Демо" />
+    <list default="true" id="ca0d1b3d-3bc5-4666-845e-381fdd8fc19a" name="Changes" comment="Демо">
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/screen/BaseScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/screen/CategoriesScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/screen/SearchScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/screen/TasksScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/CompleteTheTaskTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/RenameCategory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/TaskOnTheSearchScreenTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/FirstTest.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -38,12 +54,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zamotina-s"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:/zamotina-s/appiumdemo.git",
+    "accountId": "1db2ec74-32cc-4832-a89f-8558b9e29409"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -56,22 +94,46 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AddTaskTest.addTaskTest.executor": "Run",
+    "Gradle.AddTaskTest.executor": "Run",
     "Gradle.Build AppiumDemo.executor": "Run",
+    "Gradle.CompeteTaskTest.executor": "Run",
+    "Gradle.FirstTest (1).executor": "Run",
     "Gradle.FirstTest.executor": "Run",
+    "Gradle.FirstTest.firstTest (1).executor": "Run",
     "Gradle.FirstTest.firstTest.executor": "Run",
+    "Gradle.RenameCategory.executor": "Run",
+    "Gradle.TaskCategoryOnTheSearchScreenTest.executor": "Run",
+    "Gradle.TaskCategoryOnTheSearchScreenTest.taskCategoryOnTheSearchScreenTest.executor": "Run",
     "JUnit.FirstTest.firstTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15039062",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/Users/a.zamotina/.gradle"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.FirstTest">
-    <configuration name="FirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="calculator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RenameCategory">
+    <configuration name="AddTaskTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;FirstTest&quot;" />
+            <option value="&quot;task_tracker.AddTaskTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -95,7 +157,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FirstTest.firstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CompeteTaskTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;FirstTest.firstTest&quot;" />
+            <option value="&quot;task_tracker.CompeteTaskTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,21 +181,85 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FirstTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AppiumDemo.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="RenameCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.RenameCategory&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskCategoryOnTheSearchScreenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;task_tracker.TaskCategoryOnTheSearchScreenTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskCategoryOnTheSearchScreenTest.taskCategoryOnTheSearchScreenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;task_tracker.TaskCategoryOnTheSearchScreenTest.taskCategoryOnTheSearchScreenTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FirstTest" />
-        <item itemvalue="Gradle.FirstTest.firstTest" />
-        <item itemvalue="JUnit.FirstTest.firstTest" />
+        <item itemvalue="Gradle.RenameCategory" />
+        <item itemvalue="Gradle.TaskCategoryOnTheSearchScreenTest" />
+        <item itemvalue="Gradle.TaskCategoryOnTheSearchScreenTest.taskCategoryOnTheSearchScreenTest" />
+        <item itemvalue="Gradle.CompeteTaskTest" />
+        <item itemvalue="Gradle.AddTaskTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +288,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -176,39 +314,40 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/BaseTest.kt</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/BaseTest.kt</url>
-          <line>31</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/BaseTest.kt</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt</url>
+          <line>38</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/BaseTest.kt</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt</url>
+          <line>39</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/BaseTest.kt</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt</url>
+          <line>55</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/BaseTest.kt</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt</url>
+          <line>56</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.AbstractMethodError" package="java.lang" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/tests/BaseTest.kt</url>
+          <line>16</line>
+          <properties myFieldName="driver" myClassName="tests.BaseTest" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
